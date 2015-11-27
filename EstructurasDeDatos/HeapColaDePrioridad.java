@@ -6,7 +6,7 @@
  * @version 25.11.15
  */
 
-public class HeapColaDePrioridad<T extends Comparable<T>> implements IColaDePrioridad<T>{
+public class HeapColaDePrioridad<T extends Comparable> implements IColaDePrioridad<T>{
 	
 	private final int CIMA = 0;
 	ArregloListaIndice<T> arreglo;
